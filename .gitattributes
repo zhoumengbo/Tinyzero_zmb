@@ -1,3 +1,0 @@
-*.parquet filter=lfs diff=lfs merge=lfs -text
-data/adjustment_3.5/test.parquet filter=lfs diff=lfs merge=lfs -text
-data/adjustment_3.5/train.parquet filter=lfs diff=lfs merge=lfs -text

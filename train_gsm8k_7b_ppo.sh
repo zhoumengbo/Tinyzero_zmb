@@ -12,4 +12,4 @@ export ROLLOUT_TP_SIZE=4
 export EXPERIMENT_NAME=gsm8k-qwen2.5-7b
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
-bash ./scripts/train_tiny_zero.sh
+bash ./scripts/train_gsm8k_h100_ppo.sh
