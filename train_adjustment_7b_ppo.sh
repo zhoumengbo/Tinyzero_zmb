@@ -7,9 +7,9 @@ export N_GPUS=8
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 ray stop --force && ray start --head --include-dashboard=True
 export BASE_MODEL="/projects/m000083/model/Qwen2.5-7B"
-export DATA_DIR="data/adjustment_3.5"
+export DATA_DIR="/projects/m000083/data/adjustment_3.6"
 export ROLLOUT_TP_SIZE=4
-export EXPERIMENT_NAME=adjustment_3.5-qwen2.5-7b
+export EXPERIMENT_NAME=adjustment_3.6-qwen2.5-7b
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
 bash ./scripts/train_adjustment_h100_ppo.sh
