@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start-ray",
+            "type": "shell",
+            "command": "ray stop --force && ray start --head --include-dashboard=True",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+} 
